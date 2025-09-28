@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hand Spinner Infinito</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f0f0;
+      margin: 0;
+    }
+
+    .spinner {
+      width: 200px;
+      height: 200px;
+      animation: spin 1s linear infinite; /* gira sem parar */
+      transform-origin: center;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <img class="spinner" src="https://drive.google.com/file/d/1wbuHsPyVjafGKZrR4iGLrf7ZsI65xFSD/view?usp=sharing" alt="Hand Spinner">
+</body>
+</html>
